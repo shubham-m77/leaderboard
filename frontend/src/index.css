@@ -1,0 +1,100 @@
+body {
+    font-family: urbanist;
+      display: flex;align-items: center;justify-content: center;flex-direction: column;
+}
+.main-div{
+  padding: 16px;margin: 8px 0;
+    background-color: azure;
+    border-radius: 8px;
+    width: 330px;
+}
+
+.leaderboard-header {
+    font-size: 30px;
+    color: #003846;
+    text-align: center;
+    font-weight: 600;
+}
+
+.claimDtl {
+    color: #16a34a;
+    font-weight: 600;
+
+}
+
+.userSelector {
+    width: 100%;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.userList {
+    padding: 8px 0;
+}
+
+.userList .flex {
+    display: flex;
+    gap: 2px;
+}
+
+.userList input {
+    border: 1px solid #ccc;
+    flex-grow: 1;
+    padding: 8px;
+    margin: 8px;
+}
+
+.userList .addBtn {
+    cursor: pointer;
+    
+    background-color: #146dfc;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    margin: 8px 0;
+}
+
+.userList .addBtn:hover {
+    background-color: #3b82f6;
+}
+
+.claimBtn {
+    background-color: #16a34a;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.claimBtn:hover {
+    background-color: #0c7231;
+}
+
+.leaderboard-heading {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.sub-heading-leaderboard {
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 8px;
+}
+
+.leaderboard-list {
+    border-bottom: 1px solid #ccc;
+    padding: 2px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.history-header{margin: 4px;font-weight: 500;font-size: 24px;}
+.history-div{background-color: #eeeeee;border-radius: 4px;border:1px solid #ccc;padding: 9px;max-height: 300px;overflow: auto;}
+.history-map{display: flex;justify-content: space-between;font-size: 14px;border-bottom: 1px solid #ccc;padding: 2px 0;gap: 4px;}
